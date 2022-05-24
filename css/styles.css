@@ -1,0 +1,15 @@
+:root {
+  --primary-background-color: #ffffff;
+  --hero-color: #2f303a;
+  --primary-text-ccolor: #212121;
+  --secondary-text-color: #757575;
+  --action-color: #2196f3;
+  --footer-background-color: #2f303a;
+}
+
+body {
+  color: var(--primary-text-ccolor);
+  background-color: var(--primary-background-color);
+}
+
+/* оформление шапки */
