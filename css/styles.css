@@ -163,13 +163,13 @@ body {
 .page-nav .button {
   background-color: var(--nav-button-backgroud-color);
   border: none;
+  cursor: pointer;
 }
 
 .page-nav .button:hover,
 .page-nav .button:focus {
   background-color: var(--action-color);
   color: var(--primary-background-color);
-  cursor: pointer;
 }
 
 .projects-title {
