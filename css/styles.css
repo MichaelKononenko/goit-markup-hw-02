@@ -169,6 +169,7 @@ body {
 .page-nav .button:focus {
   background-color: var(--action-color);
   color: var(--primary-background-color);
+  cursor: pointer;
 }
 
 .projects-title {
@@ -177,7 +178,6 @@ body {
   letter-spacing: 0.06em;
 }
 .projects-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.9px;
   color: var(--secondary-text-color);
