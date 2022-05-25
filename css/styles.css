@@ -1,15 +1,108 @@
 :root {
   --primary-background-color: #ffffff;
   --hero-color: #2f303a;
-  --primary-text-ccolor: #212121;
+  --primary-text-color: #212121;
   --secondary-text-color: #757575;
   --action-color: #2196f3;
   --footer-background-color: #2f303a;
+  --footer-text-color: #ffffff;
+  --footer-contacts-color: rgba(255, 255, 255, 0.6);
 }
 
 body {
-  color: var(--primary-text-ccolor);
+  color: var(--primary-text-color);
   background-color: var(--primary-background-color);
+  font-style: normal;
 }
 
 /* оформление шапки */
+.logo {
+  color: var(--primary-text-color);
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.logo-web {
+  color: var(--action-color);
+}
+
+.site-nav-item {
+  list-style: none;
+}
+.site-nav-link {
+  color: var(--primary-text-color);
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.site-nav-link:hover,
+.site-nav-link:focus {
+  color: var(--action-color);
+}
+
+.header-contact-item {
+  list-style: none;
+}
+.header-mail,
+.header-telephone {
+  color: var(--secondary-text-color);
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.header-mail:hover,
+.header-telephone:hover,
+.header-mail:focus,
+.header-telephone:focus {
+  color: var(--action-color);
+}
+
+.current {
+  color: var(--action-color);
+}
+
+/* оформление подвала */
+.footer {
+  background-color: var(--footer-background-color);
+}
+
+.address {
+  font-style: normal;
+}
+
+.logo-footer {
+  color: var(--footer-text-color);
+}
+
+.location {
+  color: var(--footer-text-color);
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
+.footer-contacts {
+  list-style: none;
+}
+
+.footer-mail,
+.footer-telephone {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--footer-contacts-color);
+  text-decoration: none;
+}
